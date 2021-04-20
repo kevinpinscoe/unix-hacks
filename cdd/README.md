@@ -20,9 +20,11 @@ cf. https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts
 
 ## Example:
 
-$ ls -F
-Projects/  code/  files/  work/
-$ cdd
+`$ ls -F`
+
+`Projects/  code/  files/  work/`
+
+`$ cdd`
 
 `.` <----
 
