@@ -3,11 +3,11 @@
 Uses ncurses via the pick command to select the next level 
 directory to change in to
 
-##Requisite:
+## Requisite:
 
 * https://github.com/mptre/pick
 
-##Use:
+## Use:
 
 Put in your Bourne like shell's startup file:
 
