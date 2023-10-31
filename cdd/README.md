@@ -13,7 +13,7 @@ Put in your Bourne like shell's startup file:
 
 cf. https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Startup_scripts
 
-`alias cdd='cd $(find . -maxdepth 1 -type d | pick)'`
+`alias cdd='cd "$(find . -maxdepth 1 -type d | sort | pick)"'``
 
 1. Then re-source yur shells startup file (ex:  . ~/.bashrc)
 2. run cdd command: (ex: $ cdd)
