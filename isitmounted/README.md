@@ -18,8 +18,10 @@ There are other commands out there to determine this such as: mount, mountpoint 
 
 ## Run
 
-`if ! ~/bin/isitmounted /backup`
-`then`
-   `echo "error: /backup is not mounted"`
-   `exit 1`
-`fi`
+```
+if ! ~/bin/isitmounted /backup
+then
+   echo "error: /backup is not mounted"
+   exit 1
+fi
+```
